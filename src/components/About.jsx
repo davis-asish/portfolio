@@ -100,7 +100,7 @@ export default function About() {
               className="relative w-full aspect-square rounded-2xl overflow-hidden mb-8 border border-white/8 shadow-glow-violet"
             >
               <img
-                src="/davis_profile.jpg"
+                src={`${import.meta.env.BASE_URL}davis_profile.jpg`}
                 alt="Davis Asish"
                 className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
