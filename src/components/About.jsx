@@ -92,24 +92,23 @@ export default function About() {
               About Me
             </motion.h2>
 
-            {/* Avatar placeholder */}
+            {/* Profile photo */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.6, delay: 0.15 }}
-              className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden mb-8 bg-surface-3 border border-white/5"
-              style={{ background: 'linear-gradient(135deg, rgba(0,212,255,0.08), rgba(139,92,246,0.08))' }}
+              className="relative w-full aspect-square rounded-2xl overflow-hidden mb-8 border border-white/8 shadow-glow-violet"
             >
-              {/* Placeholder content */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-cyan-DEFAULT/40 to-violet-DEFAULT/40 flex items-center justify-center">
-                  <span className="font-serif text-3xl text-text-primary font-bold">You</span>
-                </div>
-                <p className="font-mono text-xs text-text-muted">[ Replace with your photo ]</p>
-              </div>
+              <img
+                src="/davis_profile.jpg"
+                alt="Davis Asish"
+                className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+              />
+              {/* Subtle overlay gradient at bottom for depth */}
+              <div className="absolute inset-0 bg-gradient-to-t from-onyx/40 via-transparent to-transparent pointer-events-none" />
               {/* Corner accents */}
-              <div className="absolute top-4 left-4 w-8 h-8 border-t border-l border-cyan-DEFAULT/40" />
-              <div className="absolute bottom-4 right-4 w-8 h-8 border-b border-r border-violet-DEFAULT/40" />
+              <div className="absolute top-4 left-4 w-8 h-8 border-t border-l border-cyan-DEFAULT/50 pointer-events-none" />
+              <div className="absolute bottom-4 right-4 w-8 h-8 border-b border-r border-violet-DEFAULT/50 pointer-events-none" />
             </motion.div>
 
             {/* Bio paragraphs */}
