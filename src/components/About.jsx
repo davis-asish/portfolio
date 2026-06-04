@@ -114,8 +114,8 @@ export default function About() {
 
             {/* Bio paragraphs */}
             {[
-              "I'm Davis Asish — a multidisciplinary AI/ML engineer at the intersection of deep learning, biomedical signal processing, and full-stack AI development. My work lives in the space between rigorous engineering precision and deliberate aesthetic intention.",
-              "My flagship project, MMA-Net, is a hybrid CNN-Transformer architecture that fuses ECG and PCG cardiac signals via a Gated Multimodal Unit for five-class arrhythmia classification — achieving F1-Macro 0.855 and AUC-ROC 0.889 under 5-fold cross-validation. I've also built a local Stable Diffusion generative AI app, a Claude-powered e-commerce platform (Uppucheppa), and an unbeatable Minimax game AI.",
+              "I'm Davis Asish — a junior AI/ML engineer operating across the full stack: from GPU-accelerated data pipelines and multimodal deep learning architectures to TypeScript front-ends and Claude-powered AI integrations. I build things that actually ship.",
+              "My flagship project, MMA-Net, is a hybrid CNN-Transformer that fuses ECG and PCG cardiac signals via a Gated Multimodal Unit for five-class arrhythmia classification — achieving F1-Macro 0.855 and AUC-ROC 0.889. Beyond biomedical AI, I've shipped a local Stable Diffusion app, a Claude-powered e-commerce platform with a live AI chatbot, a cryptographic password security tool, and an unbeatable Minimax game AI.",
               "My approach to engineering is shaped by everything I do outside of code. The same relentless focus that drives my hypertrophy training, the pattern-reading that gets me through Elden Ring's hardest encounters, and the compositional eye I've developed through editorial photography — all of it feeds back into how I build, debug, and design AI systems.",
             ].map((para, i) => (
               <motion.p

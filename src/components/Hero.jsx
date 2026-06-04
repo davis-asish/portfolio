@@ -92,9 +92,9 @@ export default function Hero() {
           className="max-w-2xl text-text-secondary text-base md:text-lg leading-relaxed mb-12 font-light"
         >
           Junior AI/ML Engineer specializing in{' '}
-          <span className="text-text-primary">multimodal models</span>,{' '}
-          <span className="text-text-primary">robust system architectures</span>, and{' '}
-          <span className="text-text-primary">ethical AI development</span>.
+          <span className="text-text-primary">multimodal deep learning</span>,{' '}
+          <span className="text-text-primary">GPU-accelerated data science</span>, and{' '}
+          <span className="text-text-primary">end-to-end AI product engineering</span>.
         </motion.p>
 
         {/* CTA Buttons */}

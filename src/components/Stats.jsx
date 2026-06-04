@@ -5,7 +5,7 @@ const stats = [
   { value: 0.855, suffix: ' F1', label: 'MMA-Net F1-Macro', sublabel: 'MIT-BIH + CinC 2016 · 5-fold CV', accent: '#00d4ff' },
   { value: 0.889, suffix: ' AUC', label: 'AUC-ROC', sublabel: 'MMA-Net · macro average', accent: '#8b5cf6' },
   { value: 0.791, suffix: ' κ', label: "Cohen's Kappa", sublabel: 'Corrected for class imbalance', accent: '#c4a882' },
-  { value: 4, suffix: '', label: 'Projects Shipped', sublabel: 'Research to production', accent: '#0ea5e9' },
+  { value: 5, suffix: '', label: 'Projects Shipped', sublabel: 'Research to production', accent: '#0ea5e9' },
 ]
 
 function Counter({ value, suffix, accent, isVisible }) {

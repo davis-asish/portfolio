@@ -111,7 +111,7 @@ export const projects = [
     metrics: {},
     color: 'from-cyan-500/20 to-emerald-500/20',
     accentColor: '#00d4ff',
-    icon: '🔐',
+    icon: '⊛',
     size: 'medium',
     githubUrl: 'https://github.com/davis-asish/password-strength-analyzer',
     liveUrl: null,
