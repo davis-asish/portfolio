@@ -25,7 +25,7 @@ export const projects = [
     accentColor: '#00d4ff',
     icon: '♥',
     size: 'large',
-    githubUrl: 'https://github.com/davis-asish/MMA-Net',
+    githubUrl: 'https://github.com/davis-asish/arrhytmia-project',
     liveUrl: null,
   },
   {
