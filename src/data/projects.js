@@ -25,7 +25,7 @@ export const projects = [
     accentColor: '#00d4ff',
     icon: '♥',
     size: 'large',
-    githubUrl: 'https://github.com/voletidavisasish/MMA-Net',
+    githubUrl: 'https://github.com/davis-asish/MMA-Net',
     liveUrl: null,
   },
   {
@@ -54,7 +54,7 @@ export const projects = [
     accentColor: '#8b5cf6',
     icon: '◈',
     size: 'medium',
-    githubUrl: 'https://github.com/voletidavisasish/NeuralStyleTransferApp',
+    githubUrl: 'https://github.com/davis-asish/NeuralStyleTransferApp',
     liveUrl: null,
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     accentColor: '#c4a882',
     icon: '◎',
     size: 'medium',
-    githubUrl: 'https://github.com/voletidavisasish/uppucheppa',
+    githubUrl: 'https://github.com/davis-asish/uppucheppa',
     liveUrl: null,
   },
   {
@@ -113,7 +113,7 @@ export const projects = [
     accentColor: '#00d4ff',
     icon: '🔐',
     size: 'medium',
-    githubUrl: 'https://github.com/voletidavisasish/password-strength-analyzer',
+    githubUrl: 'https://github.com/davis-asish/password-strength-analyzer',
     liveUrl: null,
   },
   {
@@ -140,7 +140,7 @@ export const projects = [
     accentColor: '#0ea5e9',
     icon: '⊕',
     size: 'small',
-    githubUrl: 'https://github.com/voletidavisasish/TicTacToe-AI',
+    githubUrl: 'https://github.com/davis-asish/TicTacToe-AI',
     liveUrl: null,
   },
 ]

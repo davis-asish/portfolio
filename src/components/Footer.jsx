@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 const socialLinks = [
-  { label: 'GitHub', href: 'https://github.com/voletidavisasish', mono: 'GH' },
+  { label: 'GitHub', href: 'https://github.com/davis-asish', mono: 'GH' },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/davis-asish', mono: 'LI' },
   { label: 'Email', href: 'mailto:voletidavisasish@gmail.com', mono: '@' },
 ]

@@ -40,7 +40,7 @@ const RESPONSES = {
   projects: () =>
     `1. MMA-Net               — Multimodal arrhythmia detection (F1=0.855 · AUC=0.889)\n   └─ EfficientNet-B0 + GMU · ECG+PCG fusion · 5-class AAMI · Minor Project Report\n2. NeuralStyleTransferApp — Local Stable Diffusion Turbo · Flask · Docker\n   └─ Text-to-image + 6-preset style transfer · GPU/CPU auto-detect\n3. Uppucheppa             — Premium e-commerce + Claude AI chatbot (Chitti)\n   └─ Next.js 14 + Sanity v3 + Razorpay + Shiprocket\n4. TicTacToe AI           — Unbeatable Minimax opponent · PyGame`,
   contact: () =>
-    `Name    : Davis Asish\nEmail   : voletidavisasish@gmail.com\nGitHub  : github.com/voletidavisasish\nLinkedIn: linkedin.com/in/davis-asish\n\n> Open to remote and on-site roles in AI/ML engineering.`,
+    `Name    : Davis Asish\nEmail   : voletidavisasish@gmail.com\nGitHub  : github.com/davis-asish\nLinkedIn: linkedin.com/in/davis-asish\n\n> Open to remote and on-site roles in AI/ML engineering.`,
   'cat contact.txt': () => RESPONSES.contact(),
   ls: () => LS_OUTPUT,
   clear: () => '__CLEAR__',
