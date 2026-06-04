@@ -1,0 +1,86 @@
+export const timelineItems = [
+  {
+    id: 1,
+    year: '2026',
+    period: 'Present',
+    title: 'MMA-Net — Minor Project Report Submission',
+    subtitle: 'Research Achievement · Publication Ready',
+    type: 'achievement',
+    accent: '#00d4ff',
+    description:
+      'Submitted MMA-Net as a formal minor project report. Achieved F1-Macro 0.855 ± 0.010 and AUC-ROC 0.889 ± 0.012 on 5-class AAMI arrhythmia classification via ECG-PCG multimodal fusion under 5-fold stratified cross-validation.',
+    tags: ['MMA-Net', 'Research', 'Multimodal AI', 'EfficientNet-B0'],
+  },
+  {
+    id: 2,
+    year: '2026',
+    period: 'Q1 2026',
+    title: 'MMA-Net V2 — Cross-Attention Fusion',
+    subtitle: 'In Development · Targeting F1 ≥ 0.90',
+    type: 'project',
+    accent: '#00d4ff',
+    description:
+      'Building MMA-Net V2: replacing the GMU with cross-attention fusion, adding a raw-signal 1-D CNN branch, supervised contrastive loss, and entropy regularization on attention weights. Target: F1-Macro ≥ 0.90.',
+    tags: ['Cross-Attention', 'Contrastive Learning', 'PyTorch'],
+  },
+  {
+    id: 3,
+    year: '2025',
+    period: '2025',
+    title: 'Uppucheppa — AI E-Commerce Platform',
+    subtitle: 'Full-Stack Project · Claude AI Integration',
+    type: 'project',
+    accent: '#c4a882',
+    description:
+      'Built a premium Andhra dried fish e-commerce platform with Next.js 14, Sanity v3 CMS, and a Claude Sonnet-powered AI chatbot ("Chitti") with live product knowledge. Integrated Razorpay payments, Shiprocket logistics, and batch-level ingredient transparency.',
+    tags: ['Next.js 14', 'Claude Sonnet', 'Sanity', 'Razorpay'],
+  },
+  {
+    id: 4,
+    year: '2025',
+    period: '2025',
+    title: 'NeuralStyleTransferApp — Local Generative AI',
+    subtitle: 'Full-Stack AI Project · Dockerized',
+    type: 'project',
+    accent: '#8b5cf6',
+    description:
+      'Built a fully local AI web application for text-to-image generation and style transfer using Stable Diffusion Turbo. Flask backend with 6 artistic style presets. Containerized with Docker for zero-friction deployment. GPU/CPU auto-detection via PyTorch.',
+    tags: ['Stable Diffusion', 'Flask', 'Docker', 'PyTorch'],
+  },
+  {
+    id: 5,
+    year: '2024',
+    period: '2024',
+    title: 'MMA-Net Research — Signal Processing Foundation',
+    subtitle: 'Research Foundation',
+    type: 'education',
+    accent: '#0ea5e9',
+    description:
+      'Deep-dive into ECG and PCG signal analysis, time-frequency representations (CWT, Log-Mel spectrograms), and the MIT-BIH Arrhythmia Database + PhysioNet/CinC 2016 Challenge datasets. Developed the preprocessing, spectrogram, and dataset alignment pipeline from scratch.',
+    tags: ['Signal Processing', 'WFDB', 'MIT-BIH', 'CinC 2016'],
+  },
+  {
+    id: 6,
+    year: '2024',
+    period: '2024',
+    title: 'TicTacToe AI — Minimax Algorithm',
+    subtitle: 'Algorithms & Game Theory',
+    type: 'project',
+    accent: '#0ea5e9',
+    description:
+      'Implemented an unbeatable Tic-Tac-Toe AI using the Minimax algorithm with a PyGame GUI. Clean modular architecture with an ai_problem_solver package. Built as a rigorous study in adversarial search and game-tree evaluation.',
+    tags: ['Python', 'Minimax', 'PyGame', 'Game Theory'],
+  },
+  {
+    id: 7,
+    year: '2023',
+    period: '2023',
+    title: 'CSE Foundations — Systems & Deep Learning',
+    subtitle: 'Academic Foundation',
+    type: 'education',
+    accent: '#c4a882',
+    description:
+      'Built foundational depth across computer science: systems programming in C, Linux/WSL2 administration, deep learning theory, and classical ML algorithms. The groundwork that made MMA-Net architecturally possible.',
+    tags: ['C', 'Linux', 'Deep Learning', 'Python'],
+  },
+]
